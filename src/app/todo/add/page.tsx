@@ -12,7 +12,7 @@ interface Todo {
   createdAt: string;
 }
 
-export default function Home() {
+export default function Add() {
   const [title, setTitle] = useState("");
   const [description, setDescription] = useState("");
   const addTodo = useTodoStore((state) => state.addTodo);

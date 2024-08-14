@@ -6,7 +6,7 @@ import { useTodoStore } from "../../store";
 
 import { useRouter } from "next/navigation";
 
-export default function Home() {
+export default function Todo() {
   const initializeTodos = useTodoStore((state) => state.initializeTodos);
   const router = useRouter();
   useEffect(() => {
