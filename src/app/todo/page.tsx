@@ -13,6 +13,7 @@ export default function Todo() {
     initializeTodos();
   }, [initializeTodos]);
   const todos = useTodoStore((state) => state.todos);
+
   return (
     <div className="flex flex-col h-full w-full">
       <header className="flex-shrink-0">

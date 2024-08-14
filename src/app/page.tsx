@@ -1,9 +1,5 @@
 "use client";
 import Image from "next/image";
-import { useState } from "react";
-import todosData from "../app/database/todos.json";
-import imageTodo from "todo.png";
-import Link from "next/link";
 import { useRouter } from "next/navigation";
 
 export default function Home() {
