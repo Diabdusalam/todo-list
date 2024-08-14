@@ -1,7 +1,7 @@
 "use client";
-import Image from "next/image";
+
 import { useState } from "react";
-import todosData from "../../../app/database/todos.json";
+
 import { useTodoStore } from "../../../store";
 import { useRouter } from "next/navigation";
 import { IoMdArrowRoundBack } from "react-icons/io";
